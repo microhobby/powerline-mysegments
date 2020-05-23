@@ -87,7 +87,7 @@ Here I used a 🦄 emoji to decorate my username. You can change this emoji by m
 
 ```python
     return [{
-    'contents': "{} 🦄".format(usr),
+    'contents': "{} 👽".format(usr),
     'highlight_groups': ['cool'],
     }]
 ```
