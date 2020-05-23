@@ -8,13 +8,17 @@ In this article I will show you how to quickly install and configure Powerline t
 In this article I will use the project of [Joel Bennett](https://github.com/Jaykul) who did a great job developing [Jaykul/PowerLine](https://github.com/Jaykul/PowerLine) which, in my view, is the best, simplest to be customized and extended for PowerShell.
 
 1. Install dependencies:
+
 	```powershell
 	Install-Module PANSIES -AllowClobber
 	```
+
 1. Install `powerline`:
+
 	```powershell
 	Install-Module PANSIES -AllowClobber
 	```
+
 ### Set Powerline Fonts
 
 For the dividers between segments, the `powerline` uses some unicode glyphs that must be present in the font used by the terminal.
@@ -37,7 +41,7 @@ Search for the section thats define the settings for the `commandline` `pwsh.exe
 ```
 
 
-⚠ **WARNING: do not copy and paste the above snippet into your `settings.json`! The lines with three dots mean that there is more `json` lines between it that I omitted. I am just giving you an example of what you should look for and modify in the file!** ⚠
+⚠ **WARNING: do not copy and paste the above snippet into your `settings.json`! The lines with three dots mean that there is more `json` lines between it that I omitted. I am just giving you an example of what you should look for and modify in the file!**
 
 #  Create Profile
 
@@ -61,6 +65,3 @@ Now close the current tab from Windows Terminal or open a new PowerShell Core ta
 ## Extend and Customize
 
 Each block from `$Prompt` will be a segment that you can code in PowerShell to extend the `powerline` functionality. Take a look at my other article where I made a script with some custom segments: [Linux/Windows Terminal - Script to Put Random Emojis 🥴/🤬 for Command Errors]()
-
-
-

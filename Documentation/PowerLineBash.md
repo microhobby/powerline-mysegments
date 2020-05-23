@@ -43,7 +43,7 @@ fi
 
 For the dividers between segments, the `powerline` uses some unicode glyphs that must be present in the font used by the terminal.
 
-⚠ **WARNING: do not forget to select fonts that are compatible with these unicode glyphs on your terminal configuration** ⚠
+⚠ **WARNING: do not forget to select fonts that are compatible with these unicode glyphs on your terminal configuration**
 
 A very cool font that I have been using, that have powerline glyphs support, is the [`Cascadia Code`](https://github.com/microsoft/cascadia-code/releases) from Microsoft, which is available on their [Github](https://github.com/microsoft/cascadia-code) for free and with open source license.
 
@@ -56,4 +56,3 @@ Now close the current `bash` session or open a new session to see your new termi
 ## Install Segments
 
 Now you are ready to install custom segments that can return information and make your terminal even more useful. Take a look at my other article where I made a script with some custom segments: [Linux/Windows Terminal - Script to Put Random Emojis 🥴/🤬 for Command Errors]()
-
