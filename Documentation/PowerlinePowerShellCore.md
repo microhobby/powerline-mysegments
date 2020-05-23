@@ -16,7 +16,7 @@ In this article I will use the project of [Joel Bennett](https://github.com/Jayk
 1. Install `powerline`:
 
 	```powershell
-	Install-Module PANSIES -AllowClobber
+	Install-Module PowerLine
 	```
 
 ### Set Powerline Fonts
