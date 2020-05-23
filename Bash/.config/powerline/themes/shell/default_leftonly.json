@@ -1,0 +1,46 @@
+{
+	"segments": {
+		"above": [{
+			"left": [
+				{
+					"function": "mysegments.custom.docker",
+					"priority": 10
+				},
+				{
+					"function": "mysegments.custom.git",
+					"priority": 10
+				},
+				{
+					"function": "mysegments.custom.pwd",
+					"priority": 10,
+					"args" : {
+						"dir_shorten_len" : 100,
+						"dir_limit_depth" : 100
+					}
+				}
+			]
+		}],
+		"left": [
+			{
+				"function": "mysegments.custom.hello",
+				"priority": 10
+			},
+			{
+				"function": "powerline.segments.common.net.hostname",
+				"priority": 10
+			},
+			{
+				"function": "powerline.segments.common.env.user",
+				"priority": 30
+			},
+			{
+				"function": "powerline.segments.common.env.virtualenv",
+				"priority": 50
+			},
+			{
+				"function": "mysegments.custom.end",
+				"priority": 10
+			}
+		]
+	}
+}
