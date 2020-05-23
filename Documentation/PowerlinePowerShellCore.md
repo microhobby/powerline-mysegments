@@ -1,7 +1,7 @@
 ﻿
 In this article I will show you how to quickly install and configure Powerline to make your new Windows Terminal with PowerShell Core really cool 😎
 
-⚠ **WARNING: these steps have been tested for Windows 10 Insiders fast ring with PowerShell Core 7.1** ⚠
+⚠ **WARNING: these steps have been tested for Windows 10 Insiders fast ring with PowerShell Core 7.1**
 
 # Install Powerline
 
@@ -23,7 +23,7 @@ In this article I will use the project of [Joel Bennett](https://github.com/Jayk
 
 For the dividers between segments, the `powerline` uses some unicode glyphs that must be present in the font used by the terminal.
 
-⚠ **WARNING: do not forget to select fonts that are compatible with these unicode glyphs on the `settings.json`** ⚠
+⚠ **WARNING: do not forget to select fonts that are compatible with these unicode glyphs on the `settings.json`**
 
 A very cool font that I have been using, that have powerline glyphs support, is the [`Cascadia Code`](https://github.com/microsoft/cascadia-code/releases) from Microsoft, which is available on their [Github](https://github.com/microsoft/cascadia-code) for free and with open source license.
 

@@ -1,7 +1,7 @@
 ﻿
 In this article I will show you how to quickly install and configure Powerline to make your Linux terminal really cool 😎
 
-⚠ **WARNING: these steps have been tested for Debian and Ubuntu distros (they also work if used in WSL with the new Windows Terminal)** ⚠
+⚠ **WARNING: these steps have been tested for Debian and Ubuntu distros (they also work if used in WSL with the new Windows Terminal)**
 
 # Install Powerline
 
