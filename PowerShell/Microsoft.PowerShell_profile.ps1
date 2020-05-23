@@ -2,18 +2,6 @@
 # MicroHobby licenses this file to you under the MIT license.
 # See the LICENSE file in the project root for more information.
 
-# command completion
-$scriptblock = {
-    param($wordToComplete, $commandAst, $cursorPosition)
-        dotnet complete --position $cursorPosition $commandAst.ToString() `
-                | ForEach-Object {
-            [System.Management.Automation.CompletionResult]::new($_, $_,
-                                                                 'ParameterValue',
-                                                                  $_)
-        }
-}
-Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock $scriptblock
-
 # lets set the powerline in this profile
 Import-Module PowerLine
 
