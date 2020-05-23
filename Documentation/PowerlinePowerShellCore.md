@@ -64,4 +64,4 @@ Now close the current tab from Windows Terminal or open a new PowerShell Core ta
 
 ## Extend and Customize
 
-Each block from `$Prompt` will be a segment that you can code in PowerShell to extend the `powerline` functionality. Take a look at my other article where I made a script with some custom segments: [Linux/Windows Terminal - Script to Put Random Emojis 🥴/🤬 for Command Errors]()
+Each block from `$Prompt` will be a segment that you can code in PowerShell to extend the `powerline` functionality. Take a look at my other article where I made a script with some custom segments: [Linux/Windows Terminal - Script to Display Random Emojis 🥴/🤬 from Commands that Return Errors](https://microhobby.com.br/blog/2020/05/23/linux-windows-terminal-script-to-display-random-emojis-%f0%9f%a5%b4-%f0%9f%a4%ac-from-commands-that-return-errors/)

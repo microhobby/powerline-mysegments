@@ -55,4 +55,4 @@ Now close the current `bash` session or open a new session to see your new termi
 
 ## Install Segments
 
-Now you are ready to install custom segments that can return information and make your terminal even more useful. Take a look at my other article where I made a script with some custom segments: [Linux/Windows Terminal - Script to Put Random Emojis 🥴/🤬 for Command Errors]()
+Now you are ready to install custom segments that can return information and make your terminal even more useful. Take a look at my other article where I made a script with some custom segments: [Linux/Windows Terminal - Script to Display Random Emojis 🥴/🤬 from Commands that Return Errors](https://microhobby.com.br/blog/2020/05/23/linux-windows-terminal-script-to-display-random-emojis-%f0%9f%a5%b4-%f0%9f%a4%ac-from-commands-that-return-errors/)
