@@ -14,9 +14,6 @@ $scriptblock = {
 }
 Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock $scriptblock
 
-# I will use code-insiders as code
-Set-Alias -Name code -Value code-insiders
-
 # lets set the powerline in this profile
 Import-Module PowerLine
 
@@ -111,9 +108,7 @@ $global:LASTEXITCODE = 0
         $global:LASTEXITCODE = 0
     }
     # my user name
-    # WARNING: use $env:USERNAME, I am using 'castello' because I was
-    # stupid and set the name of my user was mpro3 and not my last name
-    { " castello 👽" }
+    { " $env:USERNAME 👽" }
     # pipe
     { '>' * ($nestedPromptLevel + 1) }
 )
