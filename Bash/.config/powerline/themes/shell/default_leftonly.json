@@ -30,7 +30,7 @@
 				"priority": 10
 			},
 			{
-				"function": "powerline.segments.common.env.user",
+				"function": "mysegments.custom.user",
 				"priority": 30
 			},
 			{

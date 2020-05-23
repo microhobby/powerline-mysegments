@@ -56,6 +56,24 @@ hello = with_docstring(CustomSegment(),
 
 @requires_filesystem_watcher
 @requires_segment_info
+class User(Segment):
+  divider_highlight_group = None
+
+  def __call__(self, pl, segment_info, create_watcher):
+    
+    # get the current user name
+    usr = os.popen("whoami").read().rstrip()
+
+    return [{
+    'contents': "{} 🦄".format(usr),
+    'highlight_groups': ['critical:success'],
+    }]
+
+user = with_docstring(User(),
+          '''Return the current user''')
+
+@requires_filesystem_watcher
+@requires_segment_info
 class Docker(Segment):
   divider_highlight_group = None
 
